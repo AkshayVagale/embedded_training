@@ -1,20 +1,6 @@
 #include<stdio.h>
 
-int num(int n)
-
-{ 
-if(n>=1)
-
-   { 
-   printf(" %d ",n);
-
-      num(n-1);
-
-   }
-
-}
-
-
+int num(int n);
 
 int main()
 
@@ -31,6 +17,19 @@ num(n);
 return 0;
 
 }
+
+int num(int n)
+{ 
+   if(n>=1)
+   { 
+   printf(" %d ",n);
+
+      num(n-1);
+
+   }
+
+}
+
 
 //output:
  
