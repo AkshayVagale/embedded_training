@@ -8,7 +8,7 @@ void main()
     while(num/10 != 0) 
      { 
         if(n==0) 
-        { 
+        {  
             num = sum; 
             n = sum; 
             sum = 0; 
