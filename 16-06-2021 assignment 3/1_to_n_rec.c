@@ -4,7 +4,7 @@ int num(int n)
 
 { 
 if(n<=99)
-
+ 
    { 
    printf(" %d ",n);
 
